@@ -1,4 +1,4 @@
--- Creates a table with unique users.
+-- Creates a table with unique users email address.
 
 CREATE TABLE IF NOT EXISTS
     users (
