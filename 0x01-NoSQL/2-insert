@@ -1,0 +1,3 @@
+//insert a document in the school collection.
+db.createCollection("school");
+db.school.insertOne({age: 22});
