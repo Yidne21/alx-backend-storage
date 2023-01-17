@@ -1,0 +1,2 @@
+//create or uses a database called my_db
+use my_db;
