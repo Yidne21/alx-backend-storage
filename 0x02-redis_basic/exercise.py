@@ -21,7 +21,7 @@ def count_calls(method: Callable) -> Callable:
         return method(*args)
     return invoker
 
-    
+
 class Cache:
     '''object representation of data to sore in redis storage
     '''
@@ -30,7 +30,7 @@ class Cache:
         '''
         self._redis = redis.Redis()
         self._redis.flushdb(True)
-
+    @count_calls
     def store(self, data:Union[str, bytes, int, float]) ->str:
         '''Store a value in a Redis data sorage and returns the key.
         '''
