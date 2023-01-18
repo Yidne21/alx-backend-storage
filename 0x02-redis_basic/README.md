@@ -1,5 +1,5 @@
 # 0x02. Redis basic
-This directory contains differnt script to manuplate redis database which provided by al software engineering.
+This directory contains differnt script to manuplate  NoSQL redis database which provided by alx software engineering.
 
 ## Learning Objectives
 - Learn how to use redis for basic operations
