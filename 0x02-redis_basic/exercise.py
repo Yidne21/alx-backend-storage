@@ -3,9 +3,25 @@
 '''
 import uuid
 import redis
+from functools import wraps
 from typing import Callable, Union
 
 
+def count_calls(method: Callable) -> Callable:
+    '''Tracks the number of calls made to a method in a Cache class.
+    '''
+    @wraps(method)
+    def invoker(*args):
+        '''Invokes the given method after incrementing its call counter.
+        '''
+        if args[0]._redis.exists(method.__qualname__) == 0:
+            args[0]._redis.set(method.__qualname__, 1)
+        else:
+            args[0]._redis.incr(method.__qualname__, 1)
+        return method(*args)
+    return invoker
+
+    
 class Cache:
     '''object representation of data to sore in redis storage
     '''
