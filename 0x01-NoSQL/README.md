@@ -1,4 +1,8 @@
 # 0x01. NoSQL
+<img src='https://miro.medium.com/max/1040/1*0lgunvVYa8gZ_sfMHflyvw.jpeg' width='100%'/>
+
+
+---
 This directory contains alx project tasks to learn and understand NoSQL databases using MongoDB.
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:

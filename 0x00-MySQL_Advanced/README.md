@@ -1,4 +1,9 @@
 # 0x00. MySQL advanced
+
+<img src='https://edward-designer.com/web/wp-content/uploads/2013/12/mysql.jpg' width='100%'/>
+
+
+---
 This directory contains different Advanced MySQL scripts for learning purpose provided by the alx software engineering.
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:

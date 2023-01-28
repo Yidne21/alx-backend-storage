@@ -1,4 +1,7 @@
 # 0x02. Redis basic
+<img src='https://ps.w.org/redis-cache/assets/banner-1544x500.png?rev=2315420' width='100%'>
+
+---
 This directory contains differnt script to manuplate  NoSQL redis database which provided by alx software engineering.
 
 ## Learning Objectives
